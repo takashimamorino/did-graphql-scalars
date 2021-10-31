@@ -1,16 +1,16 @@
-import { GraphQLDID } from "./scalars";
+import { GraphQLDID } from './scalars';
 
 export { GraphQLDID as DIDResolver };
 
 // All Resolvers
 export const resolvers = {
-	DID: GraphQLDID,
+  DID: GraphQLDID,
 };
 
 // Schemas
-export { DID as DIDefinition } from "./typeDefs";
+export { DID as DIDefinition } from './typeDefs';
 
 // All Schemas
-export { typeDefs } from "./typeDefs";
+export { typeDefs } from './typeDefs';
 
 export { GraphQLDID };

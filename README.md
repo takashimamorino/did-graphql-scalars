@@ -20,21 +20,21 @@ scalar ScalarName
 ```
 
 ```typescript
-import { typeDefs as didScalarsTypeDefs } from "did-graphql-scalars";
+import { typeDefs as didScalarsTypeDefs } from 'did-graphql-scalars';
 
 const typeDefs = [
-	...didScalarsTypeDefs,
-	// other typeDefs
+  ...didScalarsTypeDefs,
+  // other typeDefs
 ];
 ```
 
 ### 3. Adding Resolvers
 
 ```typescript
-import { resolvers as didScalarResolvers } from "did-graphql-scalars";
+import { resolvers as didScalarResolvers } from 'did-graphql-scalars';
 
 const resolvers = [
-	...didScalarResolvers,
-	// other resolvers
+  ...didScalarResolvers,
+  // other resolvers
 ];
 ```

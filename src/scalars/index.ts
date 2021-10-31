@@ -1,1 +1,1 @@
-export { GraphQLDID } from "./DID";
+export { GraphQLDID } from './DID';
