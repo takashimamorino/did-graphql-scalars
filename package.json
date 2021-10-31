@@ -1,0 +1,30 @@
+{
+	"name": "did-graphql-scalars",
+	"version": "0.0.1",
+	"description": "",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsc",
+		"prepare": "tsc",
+		"tsc": "tsc --noEmit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/takashimamorino/did-graphql-scalars.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/takashimamorino/did-graphql-scalars/issues"
+	},
+	"homepage": "https://github.com/takashimamorino/did-graphql-scalars#readme",
+	"devDependencies": {
+		"graphql": "^16.0.0",
+		"typescript": "^4.4.4"
+	}
+}
