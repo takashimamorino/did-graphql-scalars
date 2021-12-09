@@ -1,4 +1,5 @@
 # DID GraphQL Scalars
+**[IMPORTANT!] The library has been merged into [GraphQL Scalars](https://github.com/Urigo/graphql-scalars). Please use [GraphQL Scalars](https://github.com/Urigo/graphql-scalars).**
 
 DID GraphQL Scalars defines custom GraphQL scalars for DID.
 
